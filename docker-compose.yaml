@@ -5,6 +5,6 @@ services:
     build: .
     #command: streamlit run src/test_st.py
     ports:
-      - 8501:8501
+      - 8080:8080
     volumes:
       - ./src/:/opt/streamlit/src/

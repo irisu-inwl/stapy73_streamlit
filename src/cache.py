@@ -32,14 +32,13 @@ def view():
     with col2:
         st.code(code.CACHE_EXAMPLE, language='python')
     with col1:
-        with st.empty():
-            st.write('Starting a long computation with cache...')
-            view_bar(progress_cache)
+        st.write('Starting a long computation with cache...')
+        view_bar(progress_cache)
 
-            st.write('Starting a long computation without cache...')
-            view_bar(progress_no_cache)
+        st.write('Starting a long computation without cache...')
+        view_bar(progress_no_cache)
 
-            st.write('...and now we\'re done!')
+        st.write('...and now we\'re done!')
 
 
 if __name__ == '__main__':
