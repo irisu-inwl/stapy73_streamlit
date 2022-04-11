@@ -4,6 +4,6 @@ scikit-learn
 matplotlib
 seaborn
 plotly
-bokeh==2.2
+bokeh==2.4.1
 streamlit
 networkx
